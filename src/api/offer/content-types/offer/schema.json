@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offerId": {
+      "type": "uid"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "decimal"
+    },
+    "contractType": {
+      "type": "string"
+    },
+    "publicationDate": {
+      "type": "date"
+    },
+    "consultantName": {
+      "type": "string"
+    },
+    "consultantEmail": {
+      "type": "email"
+    },
+    "offerContent": {
+      "type": "blocks"
+    }
+  }
+}
